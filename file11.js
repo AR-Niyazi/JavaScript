@@ -2,7 +2,8 @@
 
 // js shows undefined output for var and let but not for const
 // for const it shows an error in the code editor asking for it's initialization
-// meaning for var and let it executes the codes gives undefined output but for const it does not give any output just an error
+// meaning for var and let it executes the code and gives undefined output 
+// but for const it does not give any output just an error
 let firstName;
 console.log(firstName); // prints undefined because we didn't assign(define) anything to firstName variable
 
